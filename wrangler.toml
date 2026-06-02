@@ -11,8 +11,9 @@ bindings = [
 ]
 
 [[migrations]]
-tag = "v1" # This can be any unique identifier
-new_classes = ["TorrentState"]
+tag = "v1"
+new_classes = ["TorrentState"]    # ← 这行要改
+
 
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
