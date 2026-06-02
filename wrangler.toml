@@ -12,7 +12,8 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["TorrentState"]    # ← 这行要改
+new_sqlite_classes = ["TorrentState"]
+
 
 
 # Automatically place your workloads in an optimal location to minimize latency.
